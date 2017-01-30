@@ -36,3 +36,10 @@ const printTarget = document.getElementsByClassName('debug__output')[0];
 
 printTarget.innerText = `sayHelloTo('Jason') => ${result1}\n\n`;
 printTarget.innerText += `addArray([1, 2, 3, 4]) => ${result2}`;
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  }
+})

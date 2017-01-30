@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "dev": "rollup -c --watch",
-    "reload": "livereload 'build/'",
+    "reload": "livereload 'front/,public/' -d -e 'pug' ",
     "watch": "npm-run-all --parallel reload dev app",
-    "app": "nodemon | pino",
+    "app": "nodemon --ignore front/ --ignore public/ | pino",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -38,6 +38,7 @@
     "rollup-plugin-postcss": "^0.2.0",
     "rollup-plugin-replace": "^1.1.1",
     "rollup-plugin-uglify": "^1.0.1",
+    "rollup-plugin-vue": "^2.2.19",
     "rollup-watch": "^3.2.2",
     "vue": "^2.1.10"
   },

@@ -2,8 +2,14 @@ html
   head
     title= "Sample express app"
   body
-    h1= "Template express, rollup, vue app"
-    p= "uses those technologies"
+    h1= "Template Express, Rollup, VueJS app"
+    p= "uses also those technologies"
+    ul
+      li= "PostCSS"
+      li= "Pug"
+    div#app {{ message }}
+      
     pre(class="debug")
       code(class="debug__output")
+    script(src="https://unpkg.com/vue/dist/vue.js")
     script(src="js/main.min.js")
