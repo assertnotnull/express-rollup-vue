@@ -7,7 +7,7 @@
     "dev": "rollup -c --watch",
     "reload": "livereload 'front/,public/' -d -e 'pug' ",
     "watch": "npm-run-all --parallel reload dev app",
-    "app": "nodemon --ignore front/ --ignore public/ | pino",
+    "app": "ts-node app.ts | pino",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-preset-es2015-rollup": "^3.0.0",
+    "bluebird": "^3.4.7",
     "cssnano": "^3.10.0",
     "debug": "^2.6.0",
     "express": "^4.14.0",
@@ -43,8 +44,11 @@
     "vue": "^2.1.10"
   },
   "devDependencies": {
+    "@types/express": "^4.0.35",
+    "@types/node": "^7.0.5",
     "livereload": "^0.6.0",
     "npm-run-all": "^4.0.1",
-    "rollup-watch": "^3.2.2"
+    "rollup-watch": "^3.2.2",
+    "ts-node": "^2.1.0"
   }
 }

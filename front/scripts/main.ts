@@ -4,6 +4,7 @@ import '../styles/main.css';
 // Import a couple modules for testing.
 import { sayHelloTo } from './modules/mod1';
 import addArray from './modules/mod2';
+import Promise = require('bluebird')
 
 // Import a logger for easier debugging.
 //import debug from 'debug';
@@ -42,4 +43,8 @@ var app = new Vue({
   data: {
     message: 'Hello Vue!'
   }
+})
+
+Promise.resolve().then(function() {
+  log.info('promise executed')
 })

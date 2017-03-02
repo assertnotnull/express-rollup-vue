@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "es2015",
+        "module": "commonjs",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
@@ -8,10 +8,11 @@
         "sourceMap": true
     },
     "include": [
-        "front/*"
+        "front/*",
+        "back/*",
+        "app.ts"
     ],
     "exclude": [
-        "node_modules",
         "**/*.spec.ts"
     ]
 }
