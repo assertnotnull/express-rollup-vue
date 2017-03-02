@@ -24,7 +24,7 @@
     "debug": "^2.6.0",
     "express": "^4.14.0",
     "express-pino-logger": "^2.0.0",
-    "pino": "^3.3.2",
+    "pino": "^4.0.1",
     "postcss-cssnext": "^2.9.0",
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^3.0.0",
