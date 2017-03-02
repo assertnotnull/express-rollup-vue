@@ -36,8 +36,10 @@
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-postcss": "^0.2.0",
     "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-typescript2": "^0.1.2",
     "rollup-plugin-uglify": "^1.0.1",
     "rollup-plugin-vue": "^2.2.19",
+    "typescript": "^2.2.1",
     "vue": "^2.1.10"
   },
   "devDependencies": {
