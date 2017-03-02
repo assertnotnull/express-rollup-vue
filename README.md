@@ -7,6 +7,7 @@ This is a starter project using the following technologies:
 * Babel
 * Vue
 * Rollup
+* Pug
 
 Rollup with the help of resolve & commonjs allows to use same javascript module in frontend & backend
 
