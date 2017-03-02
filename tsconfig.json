@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        //"outFile": "public/main.min.js",
+        "sourceMap": true
+    },
+    "include": [
+        "front/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
